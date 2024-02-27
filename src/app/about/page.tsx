@@ -1,3 +1,7 @@
 export default function Page() {
-	return <p>About Page</p>;
+	return (
+		<main className="flex min-h-screen">
+			<h1>about</h1>
+		</main>
+	);
 }
