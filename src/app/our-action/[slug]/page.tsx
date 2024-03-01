@@ -1,4 +1,4 @@
-import parseMarkdownFile from "@/lib/parseMarkdown";
+import parseMarkdownFile from "@/lib/utils";
 
 export default function postPage({ params }: { params: { slug: string } }) {
 	return (

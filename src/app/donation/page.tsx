@@ -1,4 +1,4 @@
-import parseMarkdownFile from "@/lib/parseMarkdown";
+import parseMarkdownFile from "@/lib/utils";
 import postsData from "../../../data/posts.json";
 
 const posts = postsData;

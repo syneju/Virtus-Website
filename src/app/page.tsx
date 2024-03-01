@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import mountains from "../../public/mountains.jpeg";
 import postsData from "../../data/posts.json";
-import parseMarkdownFile from "@/lib/parseMarkdown";
+import parseMarkdownFile from "@/lib/utils";
 
 const posts = postsData.sort((a, b) => b.order - a.order).slice(0, 6);
 
