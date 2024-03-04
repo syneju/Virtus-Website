@@ -27,7 +27,6 @@ const Navbar = () => {
 						<li>
 							<ThemeToggle />
 						</li>
-						<li></li>
 					</ul>
 				</div>
 			</nav>

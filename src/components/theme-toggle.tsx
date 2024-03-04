@@ -6,27 +6,12 @@ import * as React from "react";
 import { useEffect, useState } from "react";
 import { themeChange } from "theme-change";
 
-// export function ThemeToggle() {
-// 	const { setTheme, theme } = useTheme();
-// 	useEffect(() => {
-// 		themeChange(false);
-// 	}, []);
-// 	return (
-// 		<label className="swap">
-// 			<input type="checkbox" className="theme-controller" />
-// 			<Sun className="swap-off h-5 w-5 " />
-// 			<Moon className="swap-on h-5 w-5 " />
-// 			<span className="sr-only">Toggle theme</span>
-// 		</label>
-// 	);
-// }
-
 export function ThemeToggle() {
+	const [targetTheme, setTargetTheme] = useState<"light" | "dark">("dark");
+	const { setTheme, theme } = useTheme();
 	const [mounted, setMounted] = useState(false);
-	const { theme, setTheme } = useTheme();
-
-	// useEffect only runs on the client, so now we can safely show the UI
 	useEffect(() => {
+		themeChange(false);
 		setMounted(true);
 	}, []);
 
@@ -35,11 +20,20 @@ export function ThemeToggle() {
 	}
 
 	return (
-		<select value={theme} onChange={(e) => setTheme(e.target.value)}>
-			<option value="system">System</option>
-			<option value="dark">Dark</option>
-			<option value="light">Light</option>
-		</select>
+		<label className="swap">
+			<input
+				type="checkbox"
+				className="theme-controller"
+				value={targetTheme}
+				onChange={(e) => {
+					const nextTheme = e.target.checked ? targetTheme : targetTheme === "light" ? "dark" : "light";
+					setTheme(nextTheme);
+				}}
+			/>
+			<Sun className="swap-off h-5 w-5 " />
+			<Moon className="swap-on h-5 w-5 " />
+			<span className="sr-only">Toggle theme</span>
+		</label>
 	);
 }
 
