@@ -9,14 +9,14 @@ export default function Home() {
 			{/* 活动行 */}
 			<section className="container flex flex-col items-center justify-center bg-base-100 my-8">
 				<article className="prose text-center text-neutral-content mt-8">
-					<h1> than 带带h</h1>
+					<h1> than 带带 h</h1>
 				</article>
 				<div className="divider px-8" />
 				<section className="container grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8">
 					{posts.map((post, index) => (
-						<div key={index} className="card card-compact bg-base-100 shadow-xl">
+						<div key={post.id} className="card card-compact bg-base-100 shadow-xl">
 							<figure>
-								<img src={post.imageSrc} alt="Card image" />
+								<img src={post.imageSrc} alt="Card" />
 							</figure>
 							<div className="card-body">
 								<h2 className="card-title">{post.title}</h2>
