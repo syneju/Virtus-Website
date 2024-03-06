@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import markdownit from "markdown-it";
 
-// 解析Markdown文件
+// 解析 Markdown 文件
 const markdownParser = new markdownit();
 
 function parseMarkdownFile(filePath: string): string {
@@ -10,4 +10,15 @@ function parseMarkdownFile(filePath: string): string {
 	return markdownParser.render(markdownContent);
 }
 
+export async function readMarkdownFile(filePath: string) {
+	try {
+		// 读取 Markdown 文件内容
+		const markdownContent = fs.readFileSync(filePath, "utf-8");
+		return markdownContent;
+	} catch (error) {
+		console.error("Error reading Markdown file:", error);
+		return ""; // 返回空字符串或者其他默认内容
+	}
+}
 export default parseMarkdownFile;
+readMarkdownFile;

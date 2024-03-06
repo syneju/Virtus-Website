@@ -1,7 +1,6 @@
-import parseMarkdownFile from "@/lib/utils";
+import postsData from "@/data/posts.json";
 import Image from "next/image";
 import Link from "next/link";
-import postsData from "../../data/posts.json";
 import mountains from "../../public/mountains.jpeg";
 
 const posts = postsData.sort((a, b) => b.order - a.order).slice(0, 6);
@@ -60,7 +59,7 @@ export default function Home() {
 				</article>
 				<div className="divider px-8" />
 				<section className="container grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-8">
-					{posts.map((post, index) => (
+					{posts.map((post) => (
 						<div key={post.id} className="card card-compact bg-base-100 shadow-xl">
 							<figure>
 								<img src={post.imageSrc} alt="Card" />
@@ -69,9 +68,7 @@ export default function Home() {
 								<h2 className="card-title">{post.title}</h2>
 								<p>{post.description}</p>
 								<div className="card-actions justify-end">
-									<Link className="link link-neutral" href={post.linkHref}>
-										More
-									</Link>
+									<Link href={`/our-action/${post.id}`}>more info</Link>
 								</div>
 							</div>
 						</div>

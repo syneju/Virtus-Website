@@ -3,81 +3,73 @@
 		"id": "1",
 		"order": 1,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes1",
+		"title": "Post1",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "2",
 		"order": 2,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes2",
+		"title": "Post2",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post2.md"
 	},
 	{
 		"id": "3",
 		"order": 3,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes3",
+		"title": "Post3",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "4",
 		"order": 4,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes4",
+		"title": "Post4",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "5",
 		"order": 5,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes5",
+		"title": "Post5",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "6",
 		"order": 6,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes6",
+		"title": "Post6",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "7",
 		"order": 7,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes7",
+		"title": "Post7",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "8",
 		"order": 8,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes8",
+		"title": "Post8",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "9",
 		"order": 9,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Shoes9",
+		"title": "Post9",
 		"description": "If a dog chews shoes whose shoes does he choose?",
-		"linkHref": "/",
-		"markdownPath": "data/postDetails/Shoes1.md"
+		"linkHref": "/9",
+		"markdownPath": "src/data/postDetails/Post1.md"
 	}
 ]

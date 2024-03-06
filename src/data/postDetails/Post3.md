@@ -1,5 +1,4 @@
-## 对比
-
+## 对比 3
 但相比白领在线招聘的日臻成熟，蓝领招聘当前线上化率仍低，主要由于蓝领招聘 长期形成的特殊模式导致。
 
 ![](https://r-w.oss-cn-shanghai.aliyuncs.com/uPic/%E7%94%A8%E5%B7%A5%E5%B8%82%E5%9C%BA_001.png?x-oss-process=image/auto-orient,1/quality,q_80/format,webp)
