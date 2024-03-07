@@ -4,6 +4,13 @@ export interface Post {
 	imageSrc: string;
 	title: string;
 	description: string;
-	linkHref: string;
 	markdownPath: string;
+}
+
+export interface Donor {
+	id: string;
+	name: string;
+	data: string;
+	project: string;
+	amount: number;
 }

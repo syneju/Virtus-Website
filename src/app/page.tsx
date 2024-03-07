@@ -10,7 +10,7 @@ export default function Home() {
 		<main className=" mx-auto min-h-screen flex flex-col space-y-8 items-center justify-between">
 			<section className=" hero min-h-screen pm-8" style={{ backgroundImage: "url(mountains.jpeg)" }}>
 				<div className="hero-overlay bg-opacity-60" />
-				<div className="hero-content text-center text-neutral-content">
+				<div className="hero-content text-center text-neutral-content text-pretty">
 					<div className="max-w-md">
 						<h1 className="mb-5 text-5xl font-bold">Hello there</h1>
 						<p>
@@ -23,7 +23,7 @@ export default function Home() {
 
 			{/* 缔造梦想 */}
 			<section className="container mx-auto flex flex-col items-center justify-center bg-base-100">
-				<article className="prose text-center text-neutral-content mt-8">
+				<article className="prose text-center  text-pretty mt-8">
 					<h1> than last month</h1>
 					<p className="px-8">
 						Next.js is a React framework for building full-stack web applications. You use React Components to build
@@ -54,7 +54,7 @@ export default function Home() {
 			</section>
 			{/* 活动行 */}
 			<section className="container flex flex-col items-center justify-center bg-base-100">
-				<article className="prose text-center text-neutral-content mt-8">
+				<article className="prose text-center text-pretty mt-8">
 					<h1> than 带带 h</h1>
 				</article>
 				<div className="divider px-8" />
