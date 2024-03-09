@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js",
+	name: "明德慈善教育基金",
 	description:
-		"Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
+		"帮助具备明日社会栋梁潜质、有志服务社会、品学兼优、家境困难的学生完成大学本科教育",
 	mainNav: [
 		{
 			title: "Home",

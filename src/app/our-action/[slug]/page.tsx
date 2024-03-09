@@ -1,6 +1,6 @@
-import fs from "fs";
+import fs from "node:fs";
 import postsData from "@/data/posts.json";
-import { Post } from "@/types/models";
+import type { Post } from "@/types/models";
 import ReactMarkdown from "react-markdown";
 
 function readMarkdownFile(filePath: string): string {

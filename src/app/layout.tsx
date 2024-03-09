@@ -1,6 +1,5 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/site";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -22,19 +21,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="zh">
 			<body className={inter.className}>
-				<ThemeProvider
-					attribute="dark"
-					defaultTheme="system"
-					enableSystem
-					disableTransitionOnChange
-					themes={["light", "dark", "pink", "red", "blue"]}
-				>
-					<Navbar />
-					{children}
-					<Footer />
-				</ThemeProvider>
+				<Navbar />
+				{children}
+				<Footer />
 			</body>
 		</html>
 	);

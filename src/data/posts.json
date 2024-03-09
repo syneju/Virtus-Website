@@ -4,7 +4,7 @@
 		"order": 1,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post1",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
@@ -12,7 +12,7 @@
 		"order": 2,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post2",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post2.md"
 	},
 	{
@@ -20,7 +20,7 @@
 		"order": 3,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post3",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
@@ -28,7 +28,7 @@
 		"order": 4,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post4",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
@@ -36,7 +36,7 @@
 		"order": 5,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post5",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
@@ -44,31 +44,31 @@
 		"order": 6,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
 		"title": "Post6",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "7",
 		"order": 7,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Post7",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"title": "2021 - 广西 - 河池",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "8",
 		"order": 8,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Post8",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"title": "2022 - 广西 - 河池",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	},
 	{
 		"id": "9",
 		"order": 9,
 		"imageSrc": "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-		"title": "Post9",
-		"description": "If a dog chews shoes whose shoes does he choose?",
+		"title": "2023 - 广西 - 河池",
+		"description": "大学之道，在明明德，在亲民，在止于至善。知止而后有定，定而后能静，静而后能安，安而后能虑，虑而后能得。物有本末，事有终始，知所先后，则近道矣",
 		"linkHref": "/9",
 		"markdownPath": "src/data/postDetails/Post1.md"
 	}
